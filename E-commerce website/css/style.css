@@ -1,10 +1,15 @@
 body{
 	font-family:arial; 
-	/* text-align:center; */
+	text-align:center;
 	font-size:25px;
+}
+.header{
+	width: 100%;
+	float:right;
 }
 .search_bar{
 	width: 30%;
+	/* float:right; */
 	border: 3px solid #b8ffcb;
 	margin-left: 50px;
 	padding: 10px;
@@ -17,18 +22,21 @@ body{
 }
 .search_btn{
 	width: 10%;
+	/* float: right; */
 	padding: 7px 10px 10px 10px;
 	background-color: #b8ffcb;
 	border: 0px solid #b8ffcb;
 	color: #000;
+	/* margin-left: -7px; */
 	margin-left: -7px;
+	margin-right: auto;
 	font-size: 20px;
 	cursor: pointer;
 	border-radius: 0 5px 5px 0;
 }
 button{
 	background:#b8ffcb;
-	margin-top: 45px;
+	/* margin-top: 45px; */
 	padding: 10px;
 	float: right;
 	border-radius: 5px;
@@ -63,7 +71,7 @@ button{
 	padding-bottom: 12px;
 }
 .full{
-	width:80%;
+	width:92%;
 	margin:auto; }
 .total{
 	width: 100%; 
@@ -71,10 +79,12 @@ button{
 	float: left; 
 	padding:20px; }
 .category{
+	font-size: 25px;
 	width: 100%; 
 	float: left; 
 	text-align:center; 
-	margin:auto;}
+	margin:auto;
+}
 
 .products{
 	width: 20%; 

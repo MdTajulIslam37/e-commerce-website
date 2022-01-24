@@ -11,6 +11,31 @@ body{font-family:arial; text-align:center;}
 	color:#2F4F4F;}
 	.products h6:hover{
 	color:black;}
+	.search_bar{
+	width: 30%;
+	border: 3px solid #b8ffcb;
+	margin-left: 50px;
+	padding: 10px;
+	border-right: none;
+	outline: none;
+	border-radius: 5px 0 0 5px;
+	float:right;
+}
+.search_bar :focus{
+	color: #b8ffcb;
+}
+.search_btn{
+	width: 10%;
+	padding: 7px 10px 10px 10px;
+	background-color: #b8ffcb;
+	border: 0px solid #b8ffcb;
+	color: #000;
+	margin-left: -7px;
+	font-size: 20px;
+	cursor: pointer;
+	border-radius: 0 5px 5px 0;
+	float:right;
+
 	
 </style>
 </title>
